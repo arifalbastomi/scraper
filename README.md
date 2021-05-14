@@ -4,4 +4,5 @@ Web Scraper Java
 #pre required
 Opencsv
 Selenium
-Chromedriver
+Chromedriver, Class Scraper2 alternative scraper using jsoup
+
