@@ -112,7 +112,7 @@ public class Scraper {
 
                     String name = webDriver.getText(PRODUCT_NAME);
                     String desc = webDriver.getText(PRODUCT_DESCRIPTION);
-                    System.out.println("sss"+desc);
+                  
                     String imageLink = webDriver.getText(PRODUCT_IMG_LINK, "SRC");
                     String price = webDriver.getText(PRODUCT_PRICE)
                             .split("Rp")[1].replace(".", "");
